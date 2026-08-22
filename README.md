@@ -4,10 +4,18 @@ A pocket recording studio for singing. Record covers over a backing track, stack
 harmonies, clean up the recording, fix the tuning, and save a finished song —
 **all on the phone**, with no account, no cloud, and no internet required.
 
-**[Download the latest version](https://github.com/Rohith-G1024/SummrTune-Releases/releases/latest)**
+## Download
 
-This repository carries the builds. The source lives at
-[Rohith-G1024/Summrtune](https://github.com/Rohith-G1024/Summrtune).
+### **[⬇ SummrTune 0.9.0 for Android (183 MB)](https://github.com/Rohith-G1024/SummrTune-Releases/releases/download/v0.9.0/SummrTune-0.9.0.apk)**
+
+Tap it, then open the downloaded file. Android will ask whether to allow
+installing from your browser — say yes.
+
+Android 11 or newer, 64-bit ARM (any phone from the last several years).
+
+[All releases](https://github.com/Rohith-G1024/SummrTune-Releases/releases) ·
+[What's new](CHANGELOG.md) ·
+[Source](https://github.com/Rohith-G1024/Summrtune)
 
 ---
 
@@ -25,9 +33,8 @@ This repository carries the builds. The source lives at
 
 ## Installing
 
-The app is not on the Play Store. Download the `.apk` from the
-[latest release](https://github.com/Rohith-G1024/SummrTune-Releases/releases/latest)
-and open it; Android will ask whether to allow installing from your browser.
+The app is not on the Play Store — the download button above is the only place
+to get it.
 
 **Requirements**
 
