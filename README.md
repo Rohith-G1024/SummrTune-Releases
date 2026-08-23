@@ -6,7 +6,7 @@ harmonies, clean up the recording, fix the tuning, and save a finished song —
 
 ## Download
 
-### **[⬇ SummrTune 0.9.0 for Android (183 MB)](https://github.com/Rohith-G1024/SummrTune-Releases/releases/download/v0.9.0/SummrTune-0.9.0.apk)**
+### **[⬇ SummrTune 1.0.0 for Android (183 MB)](https://github.com/Rohith-G1024/SummrTune-Releases/releases/download/v1.0.0/SummrTune-1.0.0.apk)**
 
 Tap it, then open the downloaded file. Android will ask whether to allow
 installing from your browser — say yes.
