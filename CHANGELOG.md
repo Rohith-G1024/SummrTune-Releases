@@ -9,6 +9,78 @@ changed.
 
 ---
 
+## 1.0.0 — 2026-08-23
+
+The first release with a predecessor, so **this one is a diff**: 0.9.0 went to
+one person, and everything below is what changed after they used it.
+
+### New
+
+- **Back up a project to a file, and restore one.** A backup is a single file you
+  choose the location for; restoring adds it as a new project and never touches
+  what you already have. Back up from a project's ⋯ menu, restore from
+  **Settings → Storage**.
+- **Convert a stereo track to mono.** A stereo track cannot use EQ, the
+  compressor, the de-esser, delay, reverb, fade, pitch correction or vocal
+  transpose — all of those need one voice. Converting unlocks them. It is in
+  the track's ⋮ menu on the timeline, it asks first, and **it cannot be
+  undone**: the two channels are folded into one for good, so anything wide can
+  thin out.
+- **Three more colour families**, taking the set to nine: *Cobalt* (deep water
+  and gold), *Honey* (burnt honeycomb and bright yellow) and *Guava* (rind green
+  and melon).
+- **Track colours now follow the colour family.** Every family has its own twelve,
+  solved from that family's own accent and warning colours.
+- **Colour is offered on every track**, including the anchor and both halves of a
+  separation, with a *neutral* option to go back.
+- **Duplicate a track**, from the track menu.
+- **Check for updates by hand**, in **Settings → Updates** — the one place a
+  failed check says so.
+- **The update notice can be turned off from the notice itself.** *Don't ask
+  again* switches off the same *Auto-check* setting Settings shows, so the two
+  can never disagree; the × still means *not now*, and the next release is
+  offered again.
+- **Punch in over an existing track** without creating a new one.
+- **Import from the timeline**, with a `+` row at the end of the track list.
+- **The piano keys play their note**, in the song's own tuning rather than
+  concert pitch.
+
+### Changed
+
+- **Every tab's title bar is the same component** — same height, same position,
+  same corner menu — so switching tabs no longer moves the page.
+- **Settings buttons now mean something by how they look**: solid is *press
+  this*, an outline is a door, a red outline deletes.
+- **The anchor track reorders like any other.**
+- ***Free up space* now leaves the layer's own audio as its original**, so a
+  track is never left pointing at something that is gone.
+- **A greyed-out effect opens read-only**, so the explanation for why it is
+  greyed is reachable.
+- ***Clear pitch correction settings* is now *Default settings***, on all three
+  arms.
+- The Recording screen's *Starts at…* line moved to the row above the transport,
+  beside the numbers it is about.
+- Preset cards no longer print *untested*.
+
+### Fixed
+
+- **Deleting the original of a duplicated track destroyed the copy's audio.**
+  This was data loss and it is the most important line here. Audio already lost
+  cannot be recovered.
+- **A trimmed track re-applied its effects on the next save.**
+- **Pitch correction ran a full pass on tracks it would not change**, captioning
+  a save *Tuning* when nothing was being tuned.
+- **The Amount slider on a scoped effect read one region and wrote the whole
+  track.**
+- **Reverb could not be opened on a stereo track**, which hid its own
+  explanation.
+- **A menu opened under the wrong end of its row.**
+- **Punching in before a track's audio started** placed the recording wrongly.
+
+---
+
+---
+
 ## 0.9.0 — 2026-08-21
 
 The first build that leaves the developer's phone. Feature-complete for what 1.0
