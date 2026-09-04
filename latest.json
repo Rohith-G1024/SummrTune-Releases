@@ -1,5 +1,12 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.0",
-  "url": "https://github.com/Rohith-G1024/SummrTune-Releases/releases/download/v1.0.0/SummrTune-1.0.0.apk"
+  "versionCode": 4,
+  "versionName": "1.0.1",
+  "url": "https://github.com/Rohith-G1024/SummrTune-Releases/releases/download/v1.0.1/SummrTune-1.0.1.apk",
+  "notes": [
+    "A changelog, in Settings and after every update.",
+    "The update notice lists what is new before you take it.",
+    "Export no longer needs a name typed over the suggested one.",
+    "Long menus and tall dialogs show a scroll bar.",
+    "Free space reads correctly on a fresh install."
+  ]
 }
